@@ -24,14 +24,12 @@ import webbrowser
 
 from flask import Flask, render_template, request, jsonify
 
-# Your API key here
+
 API_KEY = '7a081c0107a7fcd986ea1401833d3391'  
-# API endpoint for 5-day/3-hour forecast
 FORECAST_URL = "http://api.openweathermap.org/data/2.5/forecast?"
 AIR_POLLUTION_URL = "http://api.openweathermap.org/data/2.5/air_pollution"
 GEO_URL = "http://api.openweathermap.org/geo/1.0/direct"
 
-# API endpoint
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather?"
 
 app = Flask(__name__)
