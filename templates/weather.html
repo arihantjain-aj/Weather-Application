@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather for {{ city }}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Include Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Include Luxon -->
+    <script src="https://cdn.jsdelivr.net/npm/luxon"></script>
+    <!-- Include Luxon adapter for Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon"></script>
+    
+</head>
+<body>
+     <div class="parallax">
+        <div class="container mt-5 weather-container">
+            <h1 class="text-center weather-title" style="color: white;">Weather in {{ city }}</h1>
+
+            <div class="card mt-3 weather-card">
+                <div class="card-body">
+                    <h1 class="text-center weather-temp">{{ weather_data.temperature }}°{{ temperature_unit[0]|upper }}</h1>
+                    <h5 class="text-center">
+                        Feels Like : {{ weather_data.feels_like }}°{{ temperature_unit[0]|upper }}
+                    </h5>
+                    <h5 class="text-center">
+                        Min\Max : {{ min_temp }}°{{ temperature_unit[0]|upper }} \{{ max_temp }}°{{ temperature_unit[0]|upper }}
+                         &nbsp; &nbsp; Avg : {{ avg_temp }}°{{ temperature_unit[0]|upper }}
+                    </h5>
+                    <h5 class="text-center">
+                        Condition : {{ weather_data.weather }} 
+                        <img src="{{ weather_data.icon_url }}" alt="Weather Icon" class="weather-icon">
+                        &nbsp; &nbsp; Air Quality: {{ pollution_data.aqi }}
+                    </h5>            
+                </div>
+            </div>
+        
+        <!-- Create a canvas element for Chart.js -->
+        <div class="mt-5">
+            <h3 class="text-center" style="color: white;">Weather Updates for {{ city }} (5 Days)</h3>
+            <canvas id="weatherChart" width="350" height="175"></canvas>
+        </div>
+
+        <div class="mt-5 text-center">
+                <h3 style="color: white;">Weather Map</h3>
+                <iframe src="https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat={{ lat }}&lon={{ lon }}&zoom=10" width="600" height="400"></iframe>
+            </div>
+
+            <a href="/" class="btn btn-secondary mt-3">Back</a>
+        </div>
+    </div>
+
+    <!-- JavaScript to fetch data and display the chart -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+                // Get the city name dynamically from the Flask template
+            const city = "{{ city }}";  // Fetch the city from the Flask template context
+
+            // Fetch weather data from the Flask route
+            fetch(`/get_weather_data?city=${city}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                    alert(data.error);  // Handle errors
+                    return;
+                    }
+
+                    // Create the chart
+                    const ctx = document.getElementById('weatherChart').getContext('2d');
+                    const weatherChart = new Chart(ctx, {
+                        type: 'line',  // Line chart
+                        data: {
+                            labels: data.timestamps.map(ts => new Date(ts)),  // Convert timestamps to Date objects
+                            datasets: [{
+                                label: 'Temperature (°C)',
+                                data: data.temperatures,  // Temperature data
+                                borderColor: 'rgba(255, 255, 255, 1)',
+                                backgroundColor: 'rgba(255, 255, 255, 0.3)',
+                                borderWidth: 4,
+                                pointStyle: 'circle',
+                                pointRadius: 5,
+                                fill: true
+                            }]
+                        },
+                        options: {
+                            scales: {
+                                x: {
+                                    type: 'time',
+                                    time: {
+                                        unit: 'day',  // Display as days
+                                        tooltipFormat: 'MMM D, h:mm a',
+                                        displayFormats: {
+                                            //hour: 'hA',  // Show hours within the days
+                                            day: 'MMM D'
+                                        }
+                                    },
+                                    title: {
+                                        display: true,
+                                        text: 'Date and Time (3-hour intervals)'
+                                    },
+                                    grid: {
+                                        color: 'rgba(200, 200, 200, 1' // Adjust the color and opacity as needed
+                                    }
+                                },
+                                y: {
+                                    title: {
+                                        display: true,
+                                        text: 'Temperature (°C)'
+                                    },
+                                    grid: {
+                                        color: 'rgba(200, 200, 200, 1)' // Adjust the color and opacity as needed
+                                    }
+                                }
+                            }
+                        }
+                    });
+                });
+        });
+    </script>
+</body>
+</html>
