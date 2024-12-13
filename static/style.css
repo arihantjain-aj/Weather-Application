@@ -4,7 +4,7 @@
     vertical-align: middle;
 }
 body {
-    background-image: url('../static/BG.JPEG');
+    background-image: url('/static/bg.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
 }
