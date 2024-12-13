@@ -1,4 +1,4 @@
-# Task 2: Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates 
+# Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates 
 
 ## [Visit Site](https://arihantjain.pythonanywhere.com/)
 
