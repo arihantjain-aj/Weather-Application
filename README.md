@@ -6,7 +6,7 @@ Steps to Start
 1.	Install Python make sure Environment is set up.
 2.	Now open Terminal and Install Flask and Request use following Code to do so.
    
-      2.1 pip install requests
+      2.1 pip install requests <br>
       2.2 pip install Flask
 
 3.	 Now Download from arihantjain-aj/Weather-Application 
