@@ -30,7 +30,87 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Developed an interactive Python-based Weather Forecast System that provides real-time weather updates for cities worldwide. Leveraging API integration, the app fetches and displays crucial weather data, including temperature, humidity, air quality, and a 5-day forecast.<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -94,7 +174,39 @@ Key features include:<br>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 • User-Friendly Interface: Intuitive design for easy input of city names and viewing comprehensive weather summaries.<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -126,7 +238,39 @@ Key features include:<br>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 • Flexible Temperature Unit: Displays temperature in Fahrenheit, Celsius, and Kelvin for user convenience.<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -158,7 +302,55 @@ Key features include:<br>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 • Robust Backend: Utilized Python libraries like requests for seamless data retrieval and processing.<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -222,7 +414,71 @@ Weather Forecast System combines functionality with an elegant design to deliver
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### [Visit Site](https://arihantjain.pythonanywhere.com/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -270,7 +526,39 @@ Steps to Start
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1.	Install Python make sure Environment is set up.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -302,6 +590,22 @@ Steps to Start
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    
 
 
@@ -318,7 +622,39 @@ Steps to Start
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       2.1 pip install requests <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -366,7 +702,55 @@ Steps to Start
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 3.	 Now Download from arihantjain-aj/Weather-Application 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -414,7 +798,71 @@ Steps to Start
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Python weather.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
