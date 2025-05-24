@@ -1,13 +1,193 @@
 Real Time Weather Forecast System
 
+
+
 Developed an interactive Python-based Weather Forecast System that provides real-time weather updates for cities worldwide. Leveraging API integration, the app fetches and displays crucial weather data, including temperature, humidity, air quality, and a 5-day forecast.
 
 
+
+
+
 Key features include:
+
 • User-Friendly Interface: Intuitive design for easy input of city names and viewing comprehensive weather summaries.
+
 • Dynamic Visualization: Weather icons and chart visualizations for a visually engaging user experience.
+
 • Flexible Temperature Unit: Displays temperature in Fahrenheit, Celsius, and Kelvin for user convenience.
+
 • Weather Map Integration: Includes a detailed weather map for additional insights.
+
 • Robust Backend: Utilized Python libraries like `requests` for seamless data retrieval and processing.
 
+
+
 Weather Forecast System combines functionality with an elegant design to deliver a practical tool for staying updated on weather conditions anywhere, anytime.
+
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
+<!-- Script-Generated Comment -->
