@@ -6,7 +6,27 @@ Real Time Weather Forecast System
 
 
 
+
+
+
+
+
+
+
+
 Developed an interactive Python-based Weather Forecast System that provides real-time weather updates for cities worldwide. Leveraging API integration, the app fetches and displays crucial weather data, including temperature, humidity, air quality, and a 5-day forecast.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -22,7 +42,15 @@ Key features include:
 
 
 
+
+
+
+
 • User-Friendly Interface: Intuitive design for easy input of city names and viewing comprehensive weather summaries.
+
+
+
+
 
 
 
@@ -30,7 +58,15 @@ Key features include:
 
 
 
+
+
+
+
 • Flexible Temperature Unit: Displays temperature in Fahrenheit, Celsius, and Kelvin for user convenience.
+
+
+
+
 
 
 
@@ -38,7 +74,19 @@ Key features include:
 
 
 
+
+
+
+
 • Robust Backend: Utilized Python libraries like `requests` for seamless data retrieval and processing.
+
+
+
+
+
+
+
+
 
 
 
